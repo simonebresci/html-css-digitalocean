@@ -5,7 +5,72 @@
 /* color: #031b4e */
 /* Blu footer */
 /* color:#010e28; */
-div{
-  background-color: grey;
-  color: red;
+
+
+
+/* UTILITIES */
+
+.border-radius-5{
+  border-radius: 5px;
+}
+
+.bg-white{
+  background-color: #fff;
+}
+.txt-lightblue{
+  color:#006aff;
+}
+
+.txt-bold{
+  font-weight: bold;
+}
+
+.btn-shadow-transparent{
+  color: #999;
+  background-color: white;
+  box-shadow: 1px 1px 4px #ccc;
+  border: 0px;
+}
+
+/* /UTILITIES */
+
+
+/* DEBUGG */
+.debug-border{
+  border: 1px solid violet;
+}
+/* DEBUGG */
+
+.bl-header{
+  background-image: url("../img/header/sfondo.svg");
+  background-size: cover;
+  padding: 30px 0;
+}
+
+
+.bl-header .bl-jumbotron{
+  background-color: rgba(0,0,0,0);
+  color:white;
+}
+
+.bl-jumbotron .container h1{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* .bl-jumbotron .container button, input{
+  font-weight: bold;
+} */
+
+.bl-jumbotron .container .lead{
+  font-size: 20px;
+  color: #ddd; /* Colore non esatto */
+}
+
+.bl-form-header{
+
+}
+
+.navbar-fixed{
+  height: 50px;
 }
