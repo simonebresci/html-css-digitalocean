@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <!-- Inizializza larghezza device -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Framework bootstrap e file css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
@@ -12,25 +12,30 @@
     <title> Digital Ocean </title>
   </head>
   <body>
-    <div>
+
       <!-- Navbar-fixed -->
-      <div class="navbar-fixed">
+      <div class="container-fluid navbar-fixed">
           NavBAR FIXED
       </div>
 
       <!-- Container sito full screen -->
-      <div class="container-w100"> <!-- utilizzato al posto di container-fluid -->
-        <!-- Header Jumbotron -->
-        <div class=" bl-header">
-          <div class="row">
+      <div class="container-fluid bl-header">
+
+        <div class="row">
+          <!-- Padding 15 -->
+          <div class="col-xs-12">
+            <div class="bl-block-h15 debug-border"></div>
+            <div class="bl-block-h15 debug-border"></div>
+          </div>
+          <!-- /Padding 15 -->
 
 
 
-            <div class="col-xs-12 col-sm-6">
-
+            <!-- COLONNA1 -->
+            <div class="col-xs-12 col-sm-8">
               <!-- Jumbotron -->
-              <div class="jumbotron jumbotron-fluid bl-jumbotron">
-                <div class="container">
+              <!-- <div class="jumbotron jumbotron-fluid bl-jumbotron"> -->
+                <div class="bl-jumbotron">
                   <h1 class="display-4"> The simplest cloud
                   platform for developers &
                   teams</h1>
@@ -40,43 +45,100 @@
                   teams and businesses, whether you're running
                   one virtual machine or ten thousand.</p>
                 </div>
+                <!-- /Jumbotron -->
+            </div>
+            <!-- /COLONNA1 -->
+
+
+            <!-- COLONNA 2 -->
+            <div class="col-xs-12 col-sm-4">
+              <!-- BG-White -->
+              <div class=" bg-white border-radius-5 bl-pad15">
+                <!-- Form create account google -->
+                <div class=" login-form bl-form-header">
+                  <form action="/examples/actions/confirmation.php" method="post">
+                      <h2 class="text-center">Deploy your app in seconds.</h2>
+                      <h2 class="text-center txt-lightblue">Get started now.</h2>
+                      <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Email" required="required">
+                      </div>
+                      <div class="form-group">
+                          <input type="password" class="form-control" placeholder="Password" required="required">
+                      </div>
+                      <div class="form-group">
+                          <button type="submit" class="btn btn-primary btn-block">Create you account</button>
+                          <button type="submit" class="btn btn-primary btn-block btn-shadow-transparent">Sign up with google</button>
+                      </div>
+                      <div class="clearfix">
+                          <p class="text-center">By signing up you agree to the <a href="#" class="float-right">Terms of Service.</p>
+                      </div>
+                  </form>
               </div>
+              <!-- /Form create account google -->
+
+              </div>
+              <!-- /BG-white -->
+           </div>
+           <!-- /COLONNA 2 -->
+
+
+
+
+
             </div>
 
-            <!-- Form create account google -->
-            <div class="bg-white border-radius-5 col-xs-12 col-sm-6">
-              <div class=" login-form bl-form-header">
-                <form action="/examples/actions/confirmation.php" method="post">
-                    <h2 class="text-center">Deploy your app in seconds.</h2>
-                    <h2 class="text-center txt-lightblue">Get started now.</h2>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Email" required="required">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" placeholder="Password" required="required">
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-primary btn-block">Create you account</button>
-                        <button type="submit" class="btn btn-primary btn-block btn-shadow-transparent">Sign up with google</button>
-                    </div>
-                    <div class="clearfix">
-                        <p class="text-center">By signing up you agree to the <a href="#" class="float-right">Terms of Service.</p>
-                    </div>
-                </form>
-              </div>
-
+            <!-- Padding custom -->
+            <div class="col-xs-12">
+              <div class="bl-block-h15 debug-border"></div>
+              <div class="bl-block-h15 debug-border"></div>
             </div>
-            <!-- /form create account google -->
+            <!-- /Padding custom -->
 
           </div>
-          <!-- /row -->
+          <!--/ Bl-header -->
+
 
         </div>
-        <!--/ Bl-header -->
-
-        <!-- /Header Jumbotron -->
-
+        <!-- /Container fluid -->
+        <div>
         <!-- Fascia brand -->
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="container brand debug-border">
+                <div class="row text-center">
+                  <!-- Brand 1 -->
+                  <div class="col-xs-12">
+                    INNOVATE BUSINESS TRUST DIGITALOCEAN
+                  </div>
+                  <div class="box-loghi">
+                    <!-- Brand 1 -->
+                    <img src="./img/fascia-brand/docker.svg" alt="Logo Docker">
+                    <!-- Brand 2 -->
+                    <img src="./img/fascia-brand/gitlab.svg" alt="Logo gitlab">
+                    <!-- Brand 3 -->
+                    <img src="./img/fascia-brand/slack.svg" alt="Logo slack">
+                    <!-- Brand 4 -->
+                    <img src="./img/fascia-brand/hashicorp.svg" alt="Logo hashicorp">
+                    <!-- Brand 5 -->
+                    <img src="./img/fascia-brand/hashicorp.svg" alt="Logo hashicorp">
+                    <!-- Brand 6 -->
+                    <img src="./img/fascia-brand/splunk.svg" alt="Logo splunk">
+                  </div>
+                  <!-- View customer stories -->
+                  <div class="col-xs-12">
+                    View customer stories >
+
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
 
         <!-- /Fascia brand -->
 
@@ -109,8 +171,6 @@
         <!-- /Footer -->
 
       </div>
-      <!-- /Container sito full screen -->
-
-    </div>
+      <!-- /Container fluid -->
   </body>
 </html>

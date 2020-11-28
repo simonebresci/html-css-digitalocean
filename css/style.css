@@ -39,12 +39,22 @@
 .debug-border{
   border: 1px solid violet;
 }
+
+/* Padding custom di 15px */
+.bl-block-h15{
+  height: 15px;
+}
+
+.bl-pad15{
+  padding: 15px;
+}
+
 /* DEBUGG */
 
 .bl-header{
   background-image: url("../img/header/sfondo.svg");
   background-size: cover;
-  padding: 30px 0;
+  /* padding: 30px 0;  */ /* Non toccare i padding delle classi bootstrap container, row e col!*/
 }
 
 
@@ -69,6 +79,11 @@
 
 .bl-form-header{
 
+}
+
+.brand .box-loghi img{
+  width: 150px;
+  height: auto;
 }
 
 .navbar-fixed{
