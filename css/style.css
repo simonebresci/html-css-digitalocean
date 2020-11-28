@@ -51,6 +51,12 @@
 
 /* DEBUGG */
 
+.navbar-fixed img{
+  width: 150px;
+  height: auto;
+}
+
+
 .bl-header{
   background-image: url("../img/header/sfondo.svg");
   background-size: cover;
