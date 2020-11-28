@@ -5,6 +5,8 @@
 /* color: #031b4e */
 /* Blu footer */
 /* color:#010e28; */
+/* Testo innovative business */
+/* color:#698a99; */
 
 
 
@@ -17,8 +19,17 @@
 .bg-white{
   background-color: #fff;
 }
+
+.bg-grey{
+  background-color: #f3f5f9;
+}
+
 .txt-lightblue{
   color:#006aff;
+}
+
+.txt-lightgrey{
+  color:#698a99;
 }
 
 .txt-bold{
@@ -77,8 +88,14 @@
 
 /* Padding custom di 15px */
 .bl-block-h15{
+  width: 100%;
   height: 15px;
 }
+
+/* .bl-block-h15::after{
+  display: block;
+  content:" ";
+} */
 
 .bl-pad15{
   padding: 15px;
@@ -152,6 +169,7 @@
 }
 
 .brand .box-loghi img{
+  padding: 10px 0;
   width: 150px;
   height: auto;
 }
