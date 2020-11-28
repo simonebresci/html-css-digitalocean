@@ -32,6 +32,32 @@
   border: 0px;
 }
 
+/* RESET LISTA GENERICO SENZA COLORE*/
+.reset-lista ul{
+  list-style: none;
+}
+.reset-lista ul li{
+  text-decoration: none;
+  display: inline;
+  /* padding-right: 15px; */
+}
+.reset-lista ul li a{
+  text-decoration: none;
+}
+
+.reset-lista ul li a:hover{
+  background-color: rgba(0,0,0,0.1);
+  /* color:#006aff; */
+}
+
+.reset-lista.lista-blue ul li a{
+  color: #031b4e;
+}
+
+
+
+/* ****RESET LISTA GENERICO SENZA COLORE */
+
 /* /UTILITIES */
 
 
@@ -39,6 +65,15 @@
 .debug-border{
   border: 1px solid violet;
 }
+
+.btn-white{
+  background-color: white;
+  color: #006aff;
+  border-radius: 5px;
+  border: 1px solid #006aff;
+  padding: 5px;
+}
+
 
 /* Padding custom di 15px */
 .bl-block-h15{
@@ -51,10 +86,39 @@
 
 /* DEBUGG */
 
+.navbar-fixed{
+  color: #010e28;
+  font-weight: 500;
+}
+
 .navbar-fixed img{
   width: 150px;
-  height: auto;
+  max-height: 50px;
+
 }
+
+.navbar-fixed, .navbar-fixed [class*="col-"]{
+  height: 50px;
+  line-height: 50px;
+}
+
+/* Personalizzazione padding navbar */
+.navbar-fixed ul li{
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.navbar-fixed ul li:last-child{
+  padding-right: 0px;
+}
+
+
+/* Sovrascrivi colore default elemento lista */
+.navbar-fixed .navbar-login .btn-white{
+  color:#006aff;
+}
+
+
 
 
 .bl-header{
@@ -90,8 +154,4 @@
 .brand .box-loghi img{
   width: 150px;
   height: auto;
-}
-
-.navbar-fixed{
-  height: 50px;
 }
