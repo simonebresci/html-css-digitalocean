@@ -7,10 +7,30 @@
 /* color:#010e28; */
 /* Testo innovative business */
 /* color:#698a99; */
+/* Lista-no-bullets */
+/* color:#767695; */
+
+
+/* BOOTSTRAP CODE */
+/* .no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+} */
+
+/* /BOOTSTRAP CODE */
 
 
 
 /* UTILITIES */
+.container-w100{
+  width: 100%;
+}
 
 .border-radius-5{
   border-radius: 5px;
@@ -64,10 +84,17 @@
 .reset-lista.lista-blue ul li a{
   color: #031b4e;
 }
-
-
-
 /* ****RESET LISTA GENERICO SENZA COLORE */
+
+.lista-no-bullets ul{
+  list-style: none;
+  padding-left: 5px;
+}
+
+.border-grey-left{
+  border-left: 1px solid #767695;
+}
+
 
 /* /UTILITIES */
 
@@ -160,12 +187,48 @@
   color: #ddd; /* Colore non esatto */
 }
 
-.bl-form-header{
 
-}
 
 .brand .box-loghi img{
   padding: 10px 0;
   width: 150px;
   height: auto;
+}
+
+.bl-deploy h2{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.bl-deploy h3{
+  font-size:22px;
+  color: #698a99;
+}
+
+.bl-deploy h4{
+  font-weight: bold;
+  font-size:20px;
+  color:#010e28;
+}
+
+.bl-deploy h5{
+  /* font-weight: bold; */
+  font-size:16px;
+  color:#767695;
+}
+
+
+.bl-deploy .lista-no-bullets ul{
+  font-size: 20px;
+  font-weight: 500;
+  color:#767695;
+  padding-bottom:5px;
+  margin-bottom:15px;
+}
+.bl-deploy .lista-no-bullets ul li{
+  padding-bottom:15px;
+}
+
+.bl-deploy .deploy-points h5{
+  padding-bottom: 30px;
 }
