@@ -1,30 +1,18 @@
-<!-- Deploy and scale seamlessly
-Our optimized configuration process saves
-your team time when running and scaling
-distributed applications, Al & machine learning
-workloads, hosted services, client websites, or
-CIXCD environments. -->
+<!-- -->
 
 
 
-<!-- Cluster deployments
-Provision multiple Droplets (virtual machines) in seconds with
-our control panel, CLI, or directly against our API.
-4%
-Optimized compute types
-Get the compute resources you need with Standard or Optimized
-Droplets.
-One-click apps
-Skip the install and configuration process with pre-built open
-source images supporting Rails, Cassandra, Docker, and more.
-Global availability
-Deploy to any of our data center regions around the world. -->
+<!--
 
 
-<!-- Designed for developers
-Build more and spend less time managing
-your infrastructure with our easy-to-use
-control panel and API. -->
+
+
+
+ -->
+
+
+<!--
+ -->
 
 
 <!-- The features your business

@@ -132,7 +132,7 @@
 }
 
 .navbar-fixed img{
-  width: 150px;
+  max-width: 150px;
   max-height: 50px;
 
 }
@@ -157,8 +157,6 @@
 .navbar-fixed .navbar-login .btn-white{
   color:#006aff;
 }
-
-
 
 
 .bl-header{
