@@ -79,6 +79,14 @@
   border: 0px;
 }
 
+.btn-white-style1{
+  background-color: white;
+  color:#006aff;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
 .disabled{
   opacity: 50%;
 }
@@ -156,6 +164,7 @@
   top:50%;
   transform: translateY(-50%);
   font-weight: bold;
+  font-size: 32px;
 }
 
 
@@ -293,9 +302,14 @@
   font-weight: bold;
 }
 
-.bl-services h2, h3,h4,h5{
+.bl-services h2, .bl-services h3, .bl-services h4, .bl-services h5{
   color: white;
 }
+
+.bl-getstarted h1,.bl-getstarted h2,.bl-getstarted h3,.bl-getstarted h4,.bl-getstarted h5{
+  color: white;
+}
+
 
 .bl-deploy, .bl-developers h3{
   font-size:22px;
@@ -365,29 +379,33 @@
 .bl-services .record-dati{
   width: 100%;
   border-bottom: 1px solid white;
-
 }
 
-/* .bl-service .liste-speed ul{
-  padding: 20px 0;
-  background-color: white;
-  border: 5px solid red;
-} */
+.bl-services .record-dati:last-child{
+  border-bottom: 0px;
+}
+
+.bl-services .liste-speed{
+  margin-bottom: 30px;
+}
+
+.bl-services .liste-speed ul{
+  margin-bottom:0;
+  padding: 10px 15px;
+}
 
 .bl-services .liste-speed ul li:first-child{
   display: inline-block;
   width: 20%;
-  border: 1px solid green;
 }
 .bl-services .liste-speed ul li:nth-child(2){
   display: inline-block;
-  width: 50%;
-  border: 1px solid green;
+  width: 53%;
 }
 .bl-services .liste-speed ul li:nth-child(3){
   display: inline-block;
+  text-align:right;
   width: 25%;
-  border: 1px solid green;
 }
 .bl-services .liste-speed ul li:first-child{
   font-weight: bold;
@@ -401,6 +419,17 @@
 .bl-services .liste-speed ul li:nth-child(3){
   /* padding-right: 5px; */
 }
-
-
 /* /Fascia service */
+
+/* Fascia development */
+.bl-development .slider-selector{
+  margin-top: 30px;
+}
+/* /Fascia development */
+
+/* Fascia GetStarted */
+.bl-getstarted h2{
+  margin-bottom: 30px;
+}
+
+/* /Fascia GetStarted */
