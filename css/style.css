@@ -67,6 +67,36 @@
   border: 0px;
 }
 
+.disabled{
+  opacity: 50%;
+}
+
+.circle{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border:1px solid black;
+  border-radius: 50%;
+  margin-right: 2px;
+}
+
+.circle:hover{
+  background-color: black;
+}
+
+.circle.visited{
+  background-color: #006aff;
+}
+
+.circle.lightblue{
+  border-color: #006aff;
+}
+
+.circle:hover.lightblue{
+  background-color: #006aff;
+}
+
+
 /* RESET LISTA GENERICO SENZA COLORE*/
 .reset-lista ul{
   list-style: none;
@@ -88,6 +118,41 @@
 .reset-lista.lista-blue ul li a{
   color: #031b4e;
 }
+
+.slider-box{
+  position: relative;
+  display: inline-block;
+  width: 70%;
+  padding: 15px 0;
+}
+
+.slider-box .arrow{
+  width: 10%;
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+}
+
+
+.slider-box .arrow.left{
+  left:0%;
+}
+.slider-box .arrow.right{
+  right:0%;
+}
+
+.slider-content{
+  width: 100%;
+  height: auto;
+}
+
+.slider-content img{
+  width: 80%;
+}
+
+
+
 /* ****RESET LISTA GENERICO SENZA COLORE */
 
 .lista-no-bullets ul{
@@ -209,17 +274,22 @@
   color: #698a99;
 }
 
-.bl-deploy, .bl-developers h4{
+.bl-deploy h4{
   font-weight: bold;
   font-size:20px;
   color:#010e28;
 }
 
-.bl-deploy, .bl-developers h5{
+
+
+.bl-deploy h5{
   /* font-weight: bold; */
   font-size:16px;
   color:#767695;
 }
+
+
+
 
 
 .bl-deploy .lista-no-bullets ul{
@@ -236,3 +306,21 @@
 .bl-deploy .deploy-points h5{
   padding-bottom: 30px;
 }
+/* /PERSONALIZZAZIONE STILI h2 ed h3 */
+
+/* Fascia Developers */
+.bl-developers .slider-box .arrow:hover{
+  color:#006aff; /*Inserire colore esatto */
+}
+
+.bl-developers p{
+  font-weight: bold;
+  font-size:12px;
+  color:#010e28;
+  padding-top:15px;
+  padding-bottom: 0px;
+  margin-bottom:0px;
+}
+
+
+/* /Fascia Developers */
