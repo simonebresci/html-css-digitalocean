@@ -9,21 +9,15 @@
 /* color:#698a99; */
 /* Lista-no-bullets */
 /* color:#767695; */
+/* Test speed */
+/* color:#05a0af; */
 
 
-/* BOOTSTRAP CODE */
-/* .no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-
-  > .col,
-  > [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
-} */
-
-/* /BOOTSTRAP CODE */
+/* NOTEd */
+/*
+1)Pulizia e refactoring codice da fare
+2) cura dettagli estetici pagina
+ */
 
 
 
@@ -44,6 +38,21 @@
   text-decoration: none;
 }
 
+/* .list-style-credits ul li:first-child{
+  color:white;
+  font-weight: bold;
+}
+
+.list-style-credits ul li{
+  color:#808794;
+  font-weight: normal;
+}
+
+.list-style-credits ul li a{
+  color:#808794;
+  font-weight: normal;
+} */
+
 .border-radius-5{
   border-radius: 5px;
 }
@@ -58,6 +67,10 @@
 
 .bg-blue{
   background-color: blue;
+}
+
+.bg-darkblue{
+  background-color: #010e28;
 }
 
 .txt-lightblue{
@@ -124,7 +137,7 @@
 .reset-lista ul li{
   text-decoration: none;
   display: inline;
-  /* padding-right: 15px; */
+  text-transform: capitalize;
 }
 .reset-lista ul li a{
   text-decoration: none;
@@ -144,7 +157,19 @@
 }
 
 .reset-lista.lista-bianco ul li a{
-  color: #05a0af;
+  color:#808794;
+}
+
+.reset-lista.lista-credits ul li:first-child{
+  font-weight: bold;
+}
+
+.reset-lista.lista-credits ul li{
+  font-weight: normal;
+}
+
+.reset-lista.lista-credits ul li a:hover{
+  color: #006aff;
 }
 
 .link-bold a{
@@ -334,6 +359,10 @@
 }
 
 
+.bl-footer h4, .bl-footer h5{
+  color:#808794;
+}
+
 
 
 
@@ -424,6 +453,11 @@
 .bl-services .liste-speed ul li:nth-child(3){
   /* padding-right: 5px; */
 }
+
+.bl-services .reset-lista.lista-bianco ul li a{
+  color:#05a0af;
+}
+
 /* /Fascia service */
 
 /* Fascia development */
@@ -444,3 +478,35 @@
 .bl-development .slider-box .arrow:hover{
   color:#006aff; /*Inserire colore esatto */
 }
+/* /Fascia GetStarted */
+
+/* Footer */
+.bl-footer ul{
+  padding-left: 0;
+}
+
+
+
+/* Forza elementi lista come block */
+.bl-footer ul{
+  margin-bottom: 30px;
+}
+.bl-footer ul li{
+  display: block;
+  font-size: 18px;
+
+}
+
+.bl-footer ul li a{
+  font-size:16px;
+  padding-right: 5px;
+}
+
+.bl-footer h4{
+  font-size: 16px;
+}
+
+
+
+
+/* /Footer */
