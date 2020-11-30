@@ -44,6 +44,10 @@
   background-color: #f3f5f9;
 }
 
+.bg-blue{
+  background-color: blue;
+}
+
 .txt-lightblue{
   color:#006aff;
 }
@@ -193,23 +197,25 @@
   height: auto;
 }
 
-.bl-deploy h2{
+/* PERSONALIZZAZIONE STILI h2 ed h3 */
+
+.bl-deploy, .bl-developers, .bl-features h2{
   font-size: 28px;
   font-weight: bold;
 }
 
-.bl-deploy h3{
+.bl-deploy, .bl-developers h3{
   font-size:22px;
   color: #698a99;
 }
 
-.bl-deploy h4{
+.bl-deploy, .bl-developers h4{
   font-weight: bold;
   font-size:20px;
   color:#010e28;
 }
 
-.bl-deploy h5{
+.bl-deploy, .bl-developers h5{
   /* font-weight: bold; */
   font-size:16px;
   color:#767695;
