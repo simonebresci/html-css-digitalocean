@@ -131,6 +131,18 @@
   color: #031b4e;
 }
 
+.reset-lista.lista-bianco ul li {
+  color:white;
+}
+
+.reset-lista.lista-bianco ul li a{
+  color: #05a0af;
+}
+
+.link-bold a{
+  font-weight: bold;
+}
+
 .slider-box{
   position: relative;
   display: inline-block;
@@ -281,6 +293,10 @@
   font-weight: bold;
 }
 
+.bl-services h2, h3,h4,h5{
+  color: white;
+}
+
 .bl-deploy, .bl-developers h3{
   font-size:22px;
   color: #698a99;
@@ -344,3 +360,47 @@
 }
 
 /* /Fascia features */
+
+/* Fascia service */
+.bl-services .record-dati{
+  width: 100%;
+  border-bottom: 1px solid white;
+
+}
+
+/* .bl-service .liste-speed ul{
+  padding: 20px 0;
+  background-color: white;
+  border: 5px solid red;
+} */
+
+.bl-services .liste-speed ul li:first-child{
+  display: inline-block;
+  width: 20%;
+  border: 1px solid green;
+}
+.bl-services .liste-speed ul li:nth-child(2){
+  display: inline-block;
+  width: 50%;
+  border: 1px solid green;
+}
+.bl-services .liste-speed ul li:nth-child(3){
+  display: inline-block;
+  width: 25%;
+  border: 1px solid green;
+}
+.bl-services .liste-speed ul li:first-child{
+  font-weight: bold;
+
+}
+
+.bl-services .liste-speed ul li:nth-child(2){
+
+}
+
+.bl-services .liste-speed ul li:nth-child(3){
+  /* padding-right: 5px; */
+}
+
+
+/* /Fascia service */
