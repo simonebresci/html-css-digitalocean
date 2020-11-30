@@ -32,6 +32,18 @@
   width: 100%;
 }
 
+.link-style1{
+  color:#006aff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.link-style1:hover{
+  color:#006aff;
+  text-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
 .border-radius-5{
   border-radius: 5px;
 }
@@ -274,7 +286,7 @@
   color: #698a99;
 }
 
-.bl-deploy h4{
+.bl-deploy. .bl-features h4{
   font-weight: bold;
   font-size:20px;
   color:#010e28;
@@ -282,7 +294,7 @@
 
 
 
-.bl-deploy h5{
+.bl-deploy, .bl-features h5{
   /* font-weight: bold; */
   font-size:16px;
   color:#767695;
@@ -324,3 +336,11 @@
 
 
 /* /Fascia Developers */
+
+
+/* Fascia features */
+.bl-features a {
+  margin-bottom: 30px;
+}
+
+/* /Fascia features */
